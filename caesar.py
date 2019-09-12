@@ -13,5 +13,5 @@ def cipher(n):
 			nd[d[k]]=d[k+n]	
 	return nd		
 n=input('輸入1~25:')	
-		
 print(cipher(int(n)))
+print('Hello!')
